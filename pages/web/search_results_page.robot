@@ -7,7 +7,7 @@ ${PRICE_FILTER}     //div[text() = '250 - 500 TL']
 ${COLOR_FILTER}     //div[text() = 'Renk']
 ${COLOR_BlACK}      //div[text() = 'Siyah']
 ${JBL_BRAND}        //div[text() = 'JBL']
-${PRODUCTS}         (//div[@data-test-id = 'product-card-container'])[1]
+${PRODUCTS}         (//div[@data-test-id = 'product-card-container'])[2]
 
 *** Keywords ***
 Search Results Page Opened

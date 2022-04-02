@@ -3,17 +3,15 @@ Library       Browser
 
 *** Variables ***
 ${ADD_TO_BASKET_BUTTON}     button#addToCart
-${GO_TO_BASKET_BUTTON}     //button[text() = 'Sepete git']
+${MY_BASKET_BUTTON}         span#shoppingCart
 
 *** Keywords ***
-Search Results Page Opened
-  Wait Until Element Is Visible    ${ADD_TO_BASKET_BUTTON}
-  Element Should Be Visible        ${ADD_TO_BASKET_BUTTON}
+Product Page Opened
+  Switch Page                  NEW
+  Wait For Elements State      ${ADD_TO_BASKET_BUTTON}      visible
 
 Add To Basket
-  Wait Until Element Is Enabled       ${ADD_TO_BASKET_BUTTON}
-  Click Element                       ${ADD_TO_BASKET_BUTTON}
+  Click                        ${ADD_TO_BASKET_BUTTON}      delay=100ms
 
 Go To Basket
-  Wait Until Element Is Enabled       ${GO_TO_BASKET_BUTTON}
-  Click Element                       ${GO_TO_BASKET_BUTTON}
+  Click                        ${MY_BASKET_BUTTON}       delay=300ms
