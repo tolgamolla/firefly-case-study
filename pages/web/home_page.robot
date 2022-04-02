@@ -16,6 +16,6 @@ Home Page Opened
   Element Should Be Visible        ${SEARCH_BUTTON}
 
 Input SearchText
-    [Arguments]                       ${search_text}
-    Wait Until Element Is Enabled     ${SEARCH_TEXTBOX}
-    Input Text                        ${SEARCH_TEXTBOX}       ${search_text}
+    [Arguments]                      ${search_text}
+    Type Text                        ${SEARCH_TEXTBOX}       ${search_text}
+    Click                            ${SEARCH_BUTTON}
