@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "4b43d836-d01d-464e-9e43-b146a8fc5f2d",
+		"name": "gorest api tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://gorest.co.in/public/v1/users",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"  pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response body is not null\", function () {",
+							"  const responseJson = pm.response.json();",
+							"  pm.expect(responseJson).not.eql(null)",
+							"});",
+							"",
+							"pm.test(\"Response body values is not null\", function () {",
+							"  const responseJsonMetaPagination = pm.response.json().meta.pagination;",
+							"  pm.expect(responseJsonMetaPagination.total).not.eql(null)",
+							"  pm.expect(responseJsonMetaPagination.pages).not.eql(null)",
+							"  pm.expect(responseJsonMetaPagination.page).not.eql(null)",
+							"  pm.expect(responseJsonMetaPagination.limit).not.eql(null)",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://gorest.co.in/public/v1/users",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v1",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

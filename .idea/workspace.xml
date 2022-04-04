@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b070d4bb-e523-45ed-9b9a-f7a3030d63f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pages/mobile/android_home_page.robot" beforeDir="false" afterPath="$PROJECT_DIR$/pages/mobile/android_home_page.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/web/basket_page.robot" beforeDir="false" afterPath="$PROJECT_DIR$/pages/web/basket_page.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/web/home_page.robot" beforeDir="false" afterPath="$PROJECT_DIR$/pages/web/home_page.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/web/product_detail_page.robot" beforeDir="false" afterPath="$PROJECT_DIR$/pages/web/product_detail_page.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/web/search_results_page.robot" beforeDir="false" afterPath="$PROJECT_DIR$/pages/web/search_results_page.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/gorest_keyword.resource" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/keyword.resource" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mobile/product_tests.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/mobile/product_tests.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/web/api/gorest_test.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/web/api/gorest_test.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/web/ui/product_detail_tests.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/web/ui/product_detail_tests.robot" afterDir="false" />
-    </list>
+    <list default="true" id="b070d4bb-e523-45ed-9b9a-f7a3030d63f6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +9,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="279NxQCD2CMMoU9qFlLN7pxXN8M" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
