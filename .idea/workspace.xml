@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b070d4bb-e523-45ed-9b9a-f7a3030d63f6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pages/mobile/android_home_page.robot" beforeDir="false" afterPath="$PROJECT_DIR$/pages/mobile/android_home_page.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/web/basket_page.robot" beforeDir="false" afterPath="$PROJECT_DIR$/pages/web/basket_page.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/web/home_page.robot" beforeDir="false" afterPath="$PROJECT_DIR$/pages/web/home_page.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/web/product_detail_page.robot" beforeDir="false" afterPath="$PROJECT_DIR$/pages/web/product_detail_page.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/web/search_results_page.robot" beforeDir="false" afterPath="$PROJECT_DIR$/pages/web/search_results_page.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/gorest_keyword.resource" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/keyword.resource" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/mobile/product_tests.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/mobile/product_tests.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/web/api/gorest_test.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/web/api/gorest_test.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/web/ui/product_detail_tests.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/web/ui/product_detail_tests.robot" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="279NxQCD2CMMoU9qFlLN7pxXN8M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
+      <recent name="$PROJECT_DIR$/pages/web" />
+      <recent name="$PROJECT_DIR$/tests/web" />
+      <recent name="$PROJECT_DIR$/tests/ui" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b070d4bb-e523-45ed-9b9a-f7a3030d63f6" name="Default Changelist" comment="" />
+      <created>1648728590342</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648728590342</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.resource" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
